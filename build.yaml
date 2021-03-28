@@ -1,0 +1,14 @@
+targets:
+  openapi_client_builder:
+    builders:
+      openapi_client_builder:clientBuilder:
+        enabled: true
+
+builders:
+  clientBuilder:
+    import: 'package:openapi_client_builder/openapi_client_builder.dart'
+    builder_factories: [ clientBuilder ]
+    build_extensions:
+      input/app-store-connect-openapi.json: [ output/client.dart ]
+    build_to: source
+    auto_apply: root_package
