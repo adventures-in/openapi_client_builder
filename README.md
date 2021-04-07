@@ -1,22 +1,5 @@
-A library for Dart developers.
+# OpenApi Client Builder 
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+Build a Dart client from an openapi file.
 
-## Usage
-
-A simple usage example:
-
-```dart
-import 'package:openapi_client_builder/openapi_client_builder.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
-
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
+[Notes](https://docs.google.com/document/d/1SS3vrYuHxXYpVv28PFZ4e34QWS0nYU518oGZZ91u7pI/edit?usp=sharing)
